@@ -28,9 +28,14 @@ export const NewProfilePicture = () => {
           marginTop: 16,
           backgroundColor: '#FFFFFF',
           marginBottom: 200,
-          paddingBottom: 35,
+          paddingBottom: 350,
         }}>
-        <View style={{flexDirection: 'row', justifyContent: 'space-between'}}>
+        <View
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            marginBottom: 20,
+          }}>
           <View>
             <HeaderText>Profile Picture</HeaderText>
             <Text style={{...styles.fontText, left: 31, fontSize: 16}}>
@@ -51,6 +56,8 @@ export const NewProfilePicture = () => {
             </TouchableOpacity>
           </View>
         </View>
+
+        <View style={{height: 20, backgroundColor: '#f8f8f8'}}></View>
         <NewProfileNotification />
 
         <TouchableOpacity style={styles.button}>

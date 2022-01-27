@@ -100,6 +100,7 @@ const styles = StyleSheet.create({
     borderTopColor: '#CDCDCD',
     flexDirection: 'row',
     paddingLeft: 45,
+    backgroundColor: 'white',
   },
   item: {
     justifyContent: 'space-around',
